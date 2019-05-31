@@ -67,7 +67,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    
     margin: 0 auto;
 }
 
@@ -203,15 +203,47 @@ footer nav a {
     background-color: dodgerblue; 
 }
 
-.aboutTopImg{
-    display: flex; 
-    width: 876px; 
-    justify-content: center; 
+
+
+.aboutTop{
+    margin-top: 20px; 
+    margin-bottom: 20px; 
 }
 
-.containerabout-page{
-display: flex; 
-flex-wrap: wrap;
-flex-direction: row; 
-width; 49%;  
+body {
+    margin: 0 auto; 
+    width: 900px; 
+}
+
+.aboutMiddle{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between;  
+     
+}
+
+.aboutStrat{
+    width: 45%; 
+}
+
+.aboutWork{
+    width: 45%; 
+}
+
+.placesWork{
+    width: 45%; 
+}
+
+.collabMeet{
+    width: 45%; 
+}
+
+.aboutBottom{
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+}
+
+.aboutButton{
+    border: 1px solid black; 
+    border-radius: 5px; 
 }
