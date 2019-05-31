@@ -67,7 +67,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    
     margin: 0 auto;
 }
 
@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +142,108 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.navBar {
+    display: flex; 
+    flex: wrap;
+    justify-content: space-between;
+    width: 90%; 
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px; 
+}
+
+.navBar a {
+    text-decoration: none;
+    color: black; 
+}
+
+.topImg{
+    margin-bottom: 20px; 
+}
+
+.box1{
+    background-color: teal; 
+}
+
+.box2{
+    background-color: gold;
+}
+
+.box3{
+    background-color: cadetblue;  
+}
+
+.box4{
+    background-color: coral;
+}
+
+.box5{
+    background-color: crimson;
+}
+
+.box6{
+    background-color: forestgreen;
+}
+
+.box7{
+    background-color: darkorchid; 
+}
+
+.box8{
+    background-color: hotpink;
+}
+
+.box9{
+    background-color: indigo; 
+}
+
+.box10{
+    background-color: dodgerblue; 
+}
+
+
+
+.aboutTop{
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+body {
+    margin: 0 auto; 
+    width: 900px; 
+}
+
+.aboutMiddle{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between;  
+     
+}
+
+.aboutStrat{
+    width: 45%; 
+}
+
+.aboutWork{
+    width: 45%; 
+}
+
+.placesWork{
+    width: 45%; 
+}
+
+.collabMeet{
+    width: 45%; 
+}
+
+.aboutBottom{
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+}
+
+.aboutButton{
+    border: 1px solid black; 
+    border-radius: 5px; 
 }
