@@ -144,3 +144,17 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.navBar {
+    display: flex; 
+    flex: wrap;
+    justify-content: space-between;
+    width: 90%; 
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: black; 
+}
