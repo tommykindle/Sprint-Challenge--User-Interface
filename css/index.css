@@ -202,3 +202,16 @@ footer nav a {
 .box10{
     background-color: dodgerblue; 
 }
+
+.aboutTopImg{
+    display: flex; 
+    width: 876px; 
+    justify-content: center; 
+}
+
+.containerabout-page{
+display: flex; 
+flex-wrap: wrap;
+flex-direction: row; 
+width; 49%;  
+}
